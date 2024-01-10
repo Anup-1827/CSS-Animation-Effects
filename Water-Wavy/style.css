@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #dedede8a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv{
+    position: relative;
+}
+
+.mainDiv h2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+}
+
+h2:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 3px #484848;
+    filter: blur(3px);
+}
+
+h2:nth-child(2){
+    color: #fff6;
+    text-shadow: 3px 3px 10px #fff;
+    filter: drop-shadow(0 15px 15px #fff6);
+}
